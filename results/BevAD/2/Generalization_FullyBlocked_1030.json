@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Generalization_FullyBlocked_1030-c8f0",
+                "route_id": "Generalization_FullyBlocked_1030-c8f0",
+                "status": "Completed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.carlamotors.european_hgv and id=4708 at (x=-4592.728, y=3175.466, z=184.933)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 91.83% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.585294,
+                    "score_composed": 58.5294
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Generalization_FullyBlocked_1030-c8f0"
+            }
+        ]
+    }
+}

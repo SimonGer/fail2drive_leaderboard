@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Generalization_CustomObstacles_1025-08bd",
+                "route_id": "Generalization_CustomObstacles_1025-08bd",
+                "status": "Completed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.shoppingcart and id=4708 at (x=3197.912, y=5538.163, z=169.042)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=4722 at (x=3189.629, y=5537.0, z=168.947)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.39,
+                    "score_composed": 39.0
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Generalization_CustomObstacles_1025-08bd"
+            }
+        ]
+    }
+}

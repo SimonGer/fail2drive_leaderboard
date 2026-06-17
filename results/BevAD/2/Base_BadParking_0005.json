@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Base_BadParking_0005-1e88",
+                "route_id": "Base_BadParking_0005-1e88",
+                "status": "Completed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=4709 at (x=6311.112, y=5416.858, z=170.594)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 87.43% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.577374,
+                    "score_composed": 57.7374
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Base_BadParking_0005-1e88"
+            }
+        ]
+    }
+}

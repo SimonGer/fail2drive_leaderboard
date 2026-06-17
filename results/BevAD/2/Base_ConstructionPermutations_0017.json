@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Base_ConstructionPermutations_0017-1a73",
+                "route_id": "Base_ConstructionPermutations_0017-1a73",
+                "status": "Completed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.audi.tt and id=4730 at (x=3640.555, y=5526.684, z=165.84)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 72.73% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.550914,
+                    "score_composed": 55.0914
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Base_ConstructionPermutations_0017-1a73"
+            }
+        ]
+    }
+}

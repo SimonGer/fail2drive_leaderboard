@@ -1,0 +1,46 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Base_ConstructionPermutations_0016-1d2c",
+                "route_id": "Base_ConstructionPermutations_0016-1d2c",
+                "status": "Completed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.lincoln.mkz_2017 and id=5224 at (x=2883.193, y=1470.328, z=170.527)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 58.06% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 28.32,
+                    "score_penalty": 0.524508,
+                    "score_composed": 14.854067
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Base_ConstructionPermutations_0016-1d2c"
+            }
+        ]
+    }
+}

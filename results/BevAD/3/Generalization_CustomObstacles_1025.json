@@ -1,0 +1,47 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Generalization_CustomObstacles_1025-7129",
+                "route_id": "Generalization_CustomObstacles_1025-7129",
+                "status": "Completed",
+                "num_infractions": 3,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.shoppingcart and id=4708 at (x=3197.653, y=5538.172, z=169.039)",
+                        "Agent collided against object with type=static.prop.shoppingcart and id=4708 at (x=3179.509, y=5536.252, z=168.814)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.ford.mustang and id=4722 at (x=3190.746, y=5537.325, z=168.961)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.2535,
+                    "score_composed": 25.35
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Generalization_CustomObstacles_1025-7129"
+            }
+        ]
+    }
+}

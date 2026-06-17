@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Generalization_CustomObstacles_1024-b26e",
+                "route_id": "Generalization_CustomObstacles_1024-b26e",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.container and id=4708 at (x=-4296.699, y=-2858.113, z=175.632)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mercedes.coupe_2020 and id=4719 at (x=-4476.458, y=-2857.667, z=180.462)",
+                        "Agent collided against object with type=vehicle.nissan.patrol_2021 and id=4723 at (x=-4464.243, y=-2856.897, z=180.172)",
+                        "Agent collided against object with type=vehicle.mercedes.coupe_2020 and id=4719 at (x=-4430.893, y=-2857.725, z=179.334)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.1404,
+                    "score_composed": 14.04
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Generalization_CustomObstacles_1024-b26e"
+            }
+        ]
+    }
+}

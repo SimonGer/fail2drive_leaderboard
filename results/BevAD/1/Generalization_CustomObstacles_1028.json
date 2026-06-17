@@ -1,0 +1,45 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Generalization_CustomObstacles_1028-0b2b",
+                "route_id": "Generalization_CustomObstacles_1028-0b2b",
+                "status": "Completed",
+                "num_infractions": 2,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.box03 and id=4709 at (x=4382.584, y=1974.924, z=154.867)",
+                        "Agent collided against object with type=static.prop.trashbag and id=4708 at (x=4372.529, y=1974.901, z=155.188)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.4225,
+                    "score_composed": 42.25
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Generalization_CustomObstacles_1028-0b2b"
+            }
+        ]
+    }
+}

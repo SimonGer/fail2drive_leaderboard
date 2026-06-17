@@ -1,0 +1,48 @@
+{
+    "_checkpoint": {
+        "global_record": {},
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "timestamp": "Base_Animals_0079-cad8",
+                "route_id": "Base_Animals_0079-cad8",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [
+                        "Agent collided against object with type=walker.pedestrian.0045 and id=4709 at (x=2225.991, y=542.378, z=158.828)",
+                        "Agent collided against object with type=walker.pedestrian.0045 and id=4709 at (x=2225.991, y=542.378, z=158.828)"
+                    ],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=4808 at (x=2237.74, y=530.384, z=159.045)",
+                        "Agent collided against object with type=vehicle.mini.cooper_s_2021 and id=4808 at (x=2237.74, y=530.384, z=159.045)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.09,
+                    "score_composed": 9.0
+                },
+                "meta": {
+                    "route_length": 0.0,
+                    "duration_game": 0.0,
+                    "duration_system": 0.0
+                },
+                "save_name": "Base_Animals_0079-cad8"
+            }
+        ]
+    }
+}
