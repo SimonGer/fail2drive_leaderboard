@@ -1,0 +1,143 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Completed",
+            "infractions": {
+                "collisions_layout": 128.383,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.0,
+                "red_light": 0.0,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.0,
+                "min_speed_infractions": 5.582,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 0.003524,
+                "score_route": 100.0,
+                "score_penalty": 3.5e-05
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0
+            },
+            "meta": {
+                "total_length": 179.152,
+                "duration_game": 236.85,
+                "duration_system": 3214.582,
+                "exceptions": []
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_1020_rep0",
+                "status": "Completed",
+                "num_infractions": 24,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4094.466, y=4491.215, z=172.491)",
+                        "Agent collided against object with type=static.prop.gnome and id=4710 at (x=-4094.439, y=4485.849, z=172.604)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4094.313, y=4480.597, z=172.723)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4094.186, y=4475.339, z=172.837)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4094.05, y=4470.177, z=172.954)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4093.954, y=4464.843, z=173.068)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4093.907, y=4459.833, z=173.179)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4093.806, y=4454.475, z=173.3)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4093.681, y=4448.98, z=173.418)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4093.609, y=4443.783, z=173.535)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4093.544, y=4438.423, z=173.659)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4093.494, y=4433.364, z=173.767)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4093.424, y=4428.126, z=173.888)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4093.336, y=4422.899, z=174.011)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4093.229, y=4417.62, z=174.124)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4093.137, y=4412.192, z=174.25)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4093.058, y=4406.785, z=174.376)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4092.989, y=4401.65, z=174.487)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4092.911, y=4396.207, z=174.615)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4092.836, y=4390.848, z=174.737)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4092.756, y=4385.436, z=174.861)",
+                        "Agent collided against object with type=static.prop.gnome and id=4714 at (x=-4092.648, y=4380.379, z=174.981)",
+                        "Agent collided against object with type=static.prop.gnome and id=4708 at (x=-4092.516, y=4375.296, z=175.096)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 2.64% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 3.5e-05,
+                    "score_composed": 0.003524
+                },
+                "meta": {
+                    "route_length": 179.152,
+                    "duration_game": 236.85,
+                    "duration_system": 3214.582
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer"
+    ],
+    "values": [
+        "0.003524",
+        "100.0",
+        "3.5e-05",
+        "0.0",
+        "0.0",
+        "128.383",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "5.582"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}
