@@ -1,0 +1,128 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Completed",
+            "infractions": {
+                "collisions_layout": 20.125,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 0.0,
+                "red_light": 0.0,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.0,
+                "min_speed_infractions": 10.063,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 0.0,
+                "route_dev": 0.0,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 6.190617,
+                "score_route": 100.0,
+                "score_penalty": 0.061906
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0
+            },
+            "meta": {
+                "total_length": 298.135,
+                "duration_game": 27.6,
+                "duration_system": 290.333,
+                "exceptions": []
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_1019_rep0",
+                "status": "Completed",
+                "num_infractions": 9,
+                "infractions": {
+                    "collisions_layout": [
+                        "Agent collided against object with type=static.prop.streetbarrier and id=4709 at (x=-5795.5, y=1017.381, z=158.529)",
+                        "Agent collided against object with type=static.prop.trafficcone01 and id=4710 at (x=-5792.977, y=1009.483, z=158.463)",
+                        "Agent collided against object with type=static.prop.constructioncone and id=4717 at (x=-5791.743, y=1004.115, z=158.415)",
+                        "Agent collided against object with type=static.prop.trafficcone01 and id=4710 at (x=-5790.051, y=999.066, z=158.369)",
+                        "Agent collided against object with type=static.prop.constructioncone and id=4716 at (x=-5784.442, y=995.161, z=158.328)",
+                        "Agent collided against object with type=static.prop.trafficcone01 and id=4710 at (x=-5780.077, y=991.769, z=158.301)"
+                    ],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [],
+                    "min_speed_infractions": [
+                        "Average speed is 75.65% of the surrounding traffic's one",
+                        "Average speed is 78.56% of the surrounding traffic's one",
+                        "Average speed is 82.13% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.061906,
+                    "score_composed": 6.190617
+                },
+                "meta": {
+                    "route_length": 298.135,
+                    "duration_game": 27.6,
+                    "duration_system": 290.333
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer"
+    ],
+    "values": [
+        "6.190617",
+        "100.0",
+        "0.061906",
+        "0.0",
+        "0.0",
+        "20.125",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "10.063"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}
