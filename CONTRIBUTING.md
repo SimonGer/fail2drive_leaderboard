@@ -30,6 +30,28 @@ Organize your evaluation results into `results/MyMethod/` with one subdirectory 
 - [ ] A new row in `f2d_leaderboard.tex` (use the LaTeX row printed by the parser); place it in the section matching your sensor setup (camera / LiDAR-fusion / privileged)
 - [ ] A BibTeX entry in `references.bib`, with a key matching the `\cite{...}` in your new row
 
+  Match the style already used in the file: fields aligned on `=`, ordered `author, title, booktitle/journal, ..., year`, and a `AuthorYEARTitle` key (e.g. `Smith2026MyMethod`). Use `@inproceedings` for published work, or `@misc` for arXiv-only preprints:
+
+  ```bibtex
+  @inproceedings{Smith2026MyMethod,
+    author    = {Smith, Jane and Doe, John},
+    title     = {MyMethod: A Great Driving Policy},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year      = {2026},
+    pages     = {1-10}
+  }
+
+  @misc{Smith2026MyMethod,
+    author        = {Smith, Jane and Doe, John},
+    title         = {MyMethod: A Great Driving Policy},
+    year          = {2026},
+    eprint        = {2601.00000},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.RO},
+    url           = {https://arxiv.org/abs/2601.00000}
+  }
+  ```
+
 In the pull request, please provide some information about your model and a link to your paper. We would also appreciate a short note on where your model succeeded and failed, including which scenario categories caused the largest generalization drops, and any notable failure patterns.
 
 ## Questions?
