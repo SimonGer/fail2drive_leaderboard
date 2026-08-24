@@ -15,6 +15,7 @@ Fail2Drive is the first CARLA v2 benchmark designed to test closed-loop generali
 <p align="center">
   <a href="https://simonger.github.io/fail2drive/">Project Page</a> &nbsp;|&nbsp;
   <a href="https://arxiv.org/pdf/2604.08535">Paper</a> &nbsp;|&nbsp;
+  <a href="https://github.com/autonomousvision/fail2drive">Code</a> &nbsp;|&nbsp;
   <a href="https://huggingface.co/datasets/SimonGer/Fail2Drive">Download</a> &nbsp;|&nbsp;
   <a href="https://discord.gg/HZ83Em6kyZ">Discord</a>
 </p>
@@ -22,13 +23,11 @@ Fail2Drive is the first CARLA v2 benchmark designed to test closed-loop generali
 ## Citation
 
 ```bibtex
-@misc{gerstenecker2026fail2drivebenchmarkingclosedloopdriving,
-      title={Fail2Drive: Benchmarking Closed-Loop Driving Generalization}, 
-      author={Simon Gerstenecker and Andreas Geiger and Katrin Renz},
-      year={2026},
-      eprint={2604.08535},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2604.08535}, 
+@inproceedings{Gerstenecker2026Fail2Drive,
+  author    = {Gerstenecker, Simon and Geiger, Andreas and Renz, Katrin},
+  title     = {Fail2Drive: Benchmarking Closed-Loop Driving Generalization},
+  booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year      = {2026},
+  note      = {to appear}
 }
 ```
