@@ -1,0 +1,125 @@
+{
+    "_checkpoint": {
+        "global_record": {
+            "index": -1,
+            "route_id": -1,
+            "status": "Completed",
+            "infractions": {
+                "collisions_layout": 0.0,
+                "collisions_pedestrian": 0.0,
+                "collisions_vehicle": 4.88,
+                "red_light": 0.0,
+                "stop_infraction": 0.0,
+                "outside_route_lanes": 0.001,
+                "min_speed_infractions": 4.88,
+                "yield_emergency_vehicle_infractions": 0.0,
+                "scenario_timeouts": 4.88,
+                "route_dev": 0.0,
+                "vehicle_blocked": 0.0,
+                "route_timeout": 0.0
+            },
+            "scores_mean": {
+                "score_composed": 30.485064,
+                "score_route": 100.0,
+                "score_penalty": 0.304851
+            },
+            "scores_std_dev": {
+                "score_composed": 0,
+                "score_route": 0,
+                "score_penalty": 0
+            },
+            "meta": {
+                "total_length": 204.9,
+                "duration_game": 263.1,
+                "duration_system": 37863.351,
+                "exceptions": []
+            }
+        },
+        "progress": [
+            1,
+            1
+        ],
+        "records": [
+            {
+                "index": 0,
+                "route_id": "RouteScenario_16_rep0",
+                "status": "Completed",
+                "num_infractions": 4,
+                "infractions": {
+                    "collisions_layout": [],
+                    "collisions_pedestrian": [],
+                    "collisions_vehicle": [
+                        "Agent collided against object with type=vehicle.ford.mustang and id=5219 at (x=2883.06, y=1478.904, z=170.594)"
+                    ],
+                    "red_light": [],
+                    "stop_infraction": [],
+                    "outside_route_lanes": [
+                        "Agent went outside its route lanes for about 1.0 meters (0.49% of the completed route)"
+                    ],
+                    "min_speed_infractions": [
+                        "Average speed is 9.81% of the surrounding traffic's one"
+                    ],
+                    "yield_emergency_vehicle_infractions": [],
+                    "scenario_timeouts": [
+                        "Agent timed out a scenario at (x=2883.073, y=1477.202, z=170.582)"
+                    ],
+                    "route_dev": [],
+                    "vehicle_blocked": [],
+                    "route_timeout": []
+                },
+                "scores": {
+                    "score_route": 100,
+                    "score_penalty": 0.304851,
+                    "score_composed": 30.485064
+                },
+                "meta": {
+                    "route_length": 204.9,
+                    "duration_game": 263.1,
+                    "duration_system": 37863.351
+                }
+            }
+        ]
+    },
+    "entry_status": "Finished",
+    "eligible": true,
+    "sensors": [
+        "carla_camera",
+        "carla_imu",
+        "carla_gnss",
+        "carla_speedometer"
+    ],
+    "values": [
+        "30.485064",
+        "100.0",
+        "0.304851",
+        "0.0",
+        "4.88",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.001",
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0",
+        "4.88",
+        "4.88"
+    ],
+    "labels": [
+        "Avg. driving score",
+        "Avg. route completion",
+        "Avg. infraction penalty",
+        "Collisions with pedestrians",
+        "Collisions with vehicles",
+        "Collisions with layout",
+        "Red lights infractions",
+        "Stop sign infractions",
+        "Off-road infractions",
+        "Route deviations",
+        "Route timeouts",
+        "Agent blocked",
+        "Yield emergency vehicles infractions",
+        "Scenario timeouts",
+        "Min speed infractions"
+    ]
+}
